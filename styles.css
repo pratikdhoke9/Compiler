@@ -1,0 +1,42 @@
+body{
+    align-items: center;
+}
+.code{
+    background-color: rgb(244, 242, 239);
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+    display: block;
+    font-size: 20pt;
+    margin: 20px 0px;
+    padding: 5px 10px;  
+    resize: none;
+}
+.output{
+    background-color: black;
+    border-radius: 7px;
+    border: 2px solid whitesmoke;
+    color: white;
+    display: block;
+    font-size: 20pt;
+    margin: 20px 0px;
+    padding: 10px;
+    resize: none;
+}
+.compile{
+    border: none;
+    background-color: blue;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    size: 50px; 
+}
+.dropdown{
+    border-radius: 7px;
+    border: 2px solid black;
+    color: black;
+    display: list-item;
+    font-size: 15pt;
+    padding: 6px;
+}

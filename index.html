@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1><b>Compiler</b></h1>
+    <select class="dropdown" id="language_code">
+        <option value="4">JavaScript</option>
+        <option value="77">C++</option>
+        <option value="7">C-language</option>
+        <option value="8">Java</option>
+        <option value="0">Python</option>
+    </select>
+    
+    <textarea autofocus required class="code" cols="60" rows="15" placeholder="Write your code here."></textarea>
+    <button class="compile" id="compile" onclick="compile()">Compile</button>
+
+    <textarea readonly class="output" cols="60" rows="5"></textarea>
+
+    <script src="index.js">
+            
+    </script>
+</body>
+</html>
